@@ -8,7 +8,6 @@ Spork.prefork do
   # if you change any configuration or code from libraries loaded here, you'll
   # need to restart spork for it take effect.
   $: << File.expand_path(File.dirname(__FILE__) + '/../hiccup')
-
 end
 
 Spork.each_run do
